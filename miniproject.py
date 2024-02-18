@@ -3,7 +3,7 @@ print("CAKE PROJECT")
 cake_angle = int(input("cake angle : "))
 cake_pieces = int(input("no of pieces : "))
 
-if cake_angle%cake_pieces==0:
+if cake_angle/cake_pieces==0:
     print("YES it is possible to cut",cake_pieces,"equal pieces.")
 else:
     print("NO it is possible to cut",cake_pieces,"equal pieces.")
